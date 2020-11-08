@@ -20,7 +20,7 @@ from platformio.managers.platform import PlatformBase
 from platformio.util import get_systype
 
 
-class Espressif32Platform(PlatformBase):
+class Espressif32mjxkillPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         if not variables.get("board"):
